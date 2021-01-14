@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nguoidung"
+            android:icon="@drawable/ic_account"
+            android:title="@string/menu_nguoidung" />
+        <item
+            android:id="@+id/nav_theloai"
+            android:icon="@drawable/tl"
+            android:title="@string/menu_theloai" />
+        <item
+            android:id="@+id/nav_sach"
+            android:icon="@drawable/sach"
+            android:title="@string/menu_sach" />
+        <item
+            android:id="@+id/nav_toptrend"
+            android:icon="@drawable/sachbc"
+            android:title="@string/menu_toptrend1" />
+        <item
+            android:id="@+id/nav_hoadon"
+            android:icon="@drawable/hd"
+            android:title="@string/menu_hoadon" />
+        <item
+            android:id="@+id/nav_thongke"
+            android:icon="@drawable/ic_toptrend"
+            android:title="@string/menu_thongke" />
+        <item
+            android:id="@+id/nav_dx"
+            android:icon="@drawable/dxuat"
+            android:title="@string/menu_dx" />
+    </group>
+
+
+</menu>

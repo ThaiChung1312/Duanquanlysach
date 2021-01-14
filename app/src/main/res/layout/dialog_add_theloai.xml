@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/tv_title_theloai"
+        android:text="Sửa thể loại"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:enabled="false"
+       app:counterEnabled="true"
+        app:counterMaxLength="32"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:maxLength="32"
+            android:id="@+id/tv_update_matheloai"
+            android:hint="Mã thể loại"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:counterMaxLength="40"
+        app:counterEnabled="true"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:maxLength="40"
+            android:id="@+id/tv_update_tentheloai"
+            android:hint="Nhập tên thể loại"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:counterMaxLength="100"
+        app:counterEnabled="true"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:maxLength="100"
+            android:id="@+id/tv_update_mota"
+            android:hint="Mô tả"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        app:counterMaxLength="2"
+        app:counterEnabled="true"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/tv_update_vitri"
+            android:maxLength="2"
+            android:hint="Vị trí"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+<LinearLayout
+    android:padding="8dp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:background="@drawable/border"
+        android:layout_margin="8dp"
+        android:id="@+id/btn_add_theloai"
+        android:text="Thêm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@drawable/border"
+        android:layout_margin="8dp"
+        android:id="@+id/btn_huyadd_theloai"
+        android:text="Hủy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</LinearLayout>

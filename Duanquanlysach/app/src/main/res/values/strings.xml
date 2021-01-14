@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Duanquanlysach</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Avtare</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_nguoidung">Người dùng</string>
+    <string name="menu_theloai">Thể loại</string>
+    <string name="menu_sach">Sách</string>
+    <string name="menu_toptrend">10 sách bán chạy theo tháng</string>
+    <string name="menu_hoadon">Hóa đơn</string>
+    <string name="menu_thongke">Thống kê</string>
+    <string name="manhinhchao_dangnhap">Đăng nhập</string>
+    <string name="nav_header_name">Nguyễn Văn Tú</string>
+    <string name="nav_header_email">tunvph08768@fpt.edu.vn</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    app:cardBackgroundColor="#FFCDD2"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/car1"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+           >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+
+                    android:id="@+id/img_book1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_theloaisach" />
+
+                <TextView
+                    android:id="@+id/tv_chiso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="9dp"
+
+                    android:gravity="left|center_vertical"
+                    android:text="1"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="36dp" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_book1"
+                    android:layout_margin="2dp"
+                    android:layout_toRightOf="@+id/tv_chiso"
+                    android:paddingLeft="30dp"
+                    android:text="Mã sách:" />
+
+                <TextView
+                    android:id="@+id/tv_masach1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_book1"
+                    android:layout_margin="2dp"
+                    android:layout_toRightOf="@+id/tv_title"
+                    android:text="MS001" />
+
+                <TextView
+                    android:id="@+id/tv_title_sl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_title"
+                    android:layout_margin="2dp"
+                    android:layout_toRightOf="@+id/tv_chiso"
+                    android:paddingLeft="30dp"
+
+                    android:text="Số lượng:" />
+
+                <TextView
+                    android:id="@+id/tv_soluong1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_masach1"
+                    android:layout_margin="2dp"
+                    android:layout_toRightOf="@+id/tv_title"
+                    android:text="100" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFEBEE" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="18dp"
+        android:padding="4dp"
+        android:id="@+id/a1"
+        android:layout_marginTop="150dp"
+        android:text="Số lượng sách bán ra:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/a3"
+        android:textSize="18dp"
+        android:padding="4dp"
+        android:layout_toRightOf="@+id/a1"
+        android:layout_marginTop="150dp"
+        android:text="200"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:textSize="18dp"
+        android:padding="4dp"
+        android:layout_toRightOf="@+id/a3"
+        android:layout_marginTop="150dp"
+        android:text="quyển"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="18dp"
+        android:id="@+id/a2"
+        android:padding="4dp"
+        android:layout_below="@+id/a1"
+        android:layout_marginTop="20dp"
+        android:text="Thành tiền"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/a4"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/a1"
+        android:padding="4dp"
+        android:layout_toRightOf="@+id/a2"
+        android:layout_marginTop="20dp"
+        android:text="10000000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/a1"
+        android:padding="4dp"
+        android:layout_toRightOf="@+id/a4"
+        android:layout_marginTop="20dp"
+        android:text="VNĐ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

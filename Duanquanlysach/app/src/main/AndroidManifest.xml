@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vn.edu.poly.duanquanlysach">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.HDCTActivity"></activity>
+        <activity android:name=".activity.ToptrendActivity" />
+        <activity android:name=".activity.ThongkeActivity" />
+        <activity android:name=".activity.HoadonActivity" />
+        <activity
+            android:name=".activity.TheloaiActivity"
+            android:parentActivityName=".activity.NguoidungActivity" />
+        <activity android:name=".activity.SachActivity" />
+        <activity android:name=".activity.them" />
+        <activity android:name=".activity.NguoidungActivity" />
+        <activity
+            android:name=".activity.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DangnhapActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBar" />
+        <activity
+            android:name=".activity.Manhinhchao"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
